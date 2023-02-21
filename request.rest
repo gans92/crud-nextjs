@@ -1,0 +1,29 @@
+GET http://localhost:3000/api/todos
+
+
+###
+POST http://localhost:3000/api/todos
+Content-Type: application/json
+
+{
+  "name": "todo 3",
+  "completed": false
+}
+
+###
+PUT http://localhost:3000/api/todos
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "todo 1",
+  "status": true
+}
+
+###
+DELETE http://localhost:3000/api/todos
+Content-Type: application/json
+
+{
+  "id": 4
+}
